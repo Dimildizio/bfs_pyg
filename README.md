@@ -10,14 +10,20 @@ bfs_grid_settings.py - settings file to tinker with
 everything is scallable with the TILE variable in bfs_grid_settings
 
 
+Other:
+
 bfs_simple.py - example of bfs. Does not require pygame
+
+dijxstra.py - example of Dijkstra algorithm
+
+astar.py - example of A* algorithm
 
 LocationGraph.py is a part of a large code from a tile turn-based graphic rpg that is being refactored now. useless without other modules and assets
 
 
 
 
-controls:
+controls for bfs.grid.py:
 
     left mouse button click: set a destination point for pathfinding at mouse position
 
